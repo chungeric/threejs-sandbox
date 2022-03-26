@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three JS Starter</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    .buttons {
+      position: absolute;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="buttons">
+    <button type="button" id="toggle-capture">Start Capturing Frames</button>
+    <button type="button" id="reload">Reload</button>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="./ccapture/CCapture.all.min.js"></script>
+  <script src="./src/index.js" type="module"></script>
+</body>
+</html>
